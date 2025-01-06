@@ -1,0 +1,164 @@
+* {
+    margin: 0 auto;
+}
+
+html {
+    -webkit-print-color-adjust: exact;
+    /* -webkit-filter: opacity(1); */
+}
+
+body {
+    font: 500 16px/24px Open Sans, sans-serif;
+    background: #ffffff;
+    line-height: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin-bottom: 0px;
+}
+
+.main-name {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.role {
+    font-weight: bold;
+    color: #1e8dec;
+    font-size: 18px;
+}
+
+p {
+    font-size: 12px;
+}
+
+p.right-head {
+    /* tom: 5px; */
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 8px 0px;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+ul {
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+ul li {
+    font-size: 12px;
+}
+
+
+
+.skill span {
+    margin-right: 6px;
+    background: #eee;
+    padding: 3px 6px;
+    border-radius: 5px;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+.project-box {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    /* margin-top: 12px; */
+}
+
+.project-box a {
+    color: #000;
+}
+
+.project-box a img {
+    height: 60px;
+    width: 60px;
+    padding: 14px;
+    background: #eee;
+    border-radius: 50%;
+}
+
+hr {
+    margin: 8px 0px 4px 0px;
+}
+
+.org-position {
+    color: grey;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.spend-time {
+    font-size: 12px;
+    font-weight: 500;
+    color: #000;
+}
+
+
+/* extra custom  */
+
+.main-container {
+    background: #f1f2f5;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.extra-ul {
+    padding-left: 15px !important;
+}
+
+.back-panel {
+    background: #fff;
+    padding: 8px;
+    border-radius: 10px;
+    margin-bottom: 8px;
+    /* box-shadow: 0px 4px 6px #00000008; */
+}
+
+.margin-0 {
+    margin: 0px;
+}
+
+.hastag {
+    color: #1e8dec;
+    font-weight: bold;
+}
+
+.small-hastag {
+    font-weight: bold;
+}
+
+.panel-extra-margin {
+    margin-top: 35px;
+}
+
+.display-flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.hobbies-panel-height {
+    height: 97px;
+}
