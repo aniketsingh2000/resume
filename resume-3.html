@@ -33,7 +33,7 @@
         }
 
         a {
-            text-decoration: none;
+            /* text-decoration: none; */
             color: #000;
         }
 
@@ -52,43 +52,47 @@
 
         h3 {
             font-size: 18px;
-            font-weight: 600;
-            margin-bottom: 10px;
+            font-weight: 500;
+            padding-bottom: 4px;
+            margin-bottom: 8px;
+            border-bottom: 1px solid #6f6f6f;
         }
 
         p {
-            font-size: 14px;
+            font-size: 13px;
+            margin-bottom: 5px;
+        }
+
+        ul {
+            padding-left: 0px;
             margin-bottom: 5px;
         }
 
         ul li {
-            font-size: 14px;
-            margin-bottom: 4px;
+            font-size: 12px;
+            margin-bottom: 5px;
         }
 
         h4 {
             font-size: 14px;
         }
 
+        .skill span {
+            font-size: 12px;
+        }
+
         .extra-ul {
             padding-left: 1rem !important;
+            margin-bottom: 16px;
         }
 
-        .project-box {
-            /* display: flex; */
-            /* justify-content: space-evenly; */
-            /* align-items: center;
-            text-align: center; */
-            /* margin-top: 12px; */
-        }
-
-        .project-box a {
-            /* color: #02adc1; */
+        .spend-time {
+            font-weight: 500;
         }
 
         .project-box a img {
-            height: 40px;
-            width: 40px;
+            height: 30px;
+            width: 30px;
             padding: 5px;
             background: #eee;
             border-radius: 50%;
@@ -104,19 +108,16 @@
         }
 
         .row {
-            margin-top: 15px;
+            margin-top: 6px;
         }
 
         .row:first-child {
             margin-top: 0px;
         }
 
-        .skill span {
-            margin-right: 8px;
-        }
 
         .color-blue {
-            color: #02adc1;
+            color: #2494bc;
         }
 
         /* .mt-50 {
@@ -135,18 +136,47 @@
             font-weight: bold;
         }
 
-        .clg-name{
-          display: block;
-          margin-left: 10px;
-          margin-bottom: 10px;
-          font-size: 13px;
-          margin-top: 3px;
+        .clg-name {
+            display: block;
+            margin-left: 0px;
+            margin-bottom: 10px;
+            font-size: 12px;
+            margin-top: 3px;
         }
 
-        .year-pass{
-            margin-left: 10px;
+        .certicate-place {
+            margin-left: 2px;
+            font-size: 13px;
+        }
+
+        .year-pass {
+            margin-left: 5px;
             font-weight: 500;
 
+        }
+
+        .font-12 {
+            font-size: 12px;
+        }
+
+        .font-style {
+            font-style: italic;
+        }
+
+        .mb-2 {
+            margin-bottom: 8px !important;
+        }
+
+        .company-name {
+            font-size: 14px;
+        }
+
+        .line-height-16 {
+            line-height: 16px;
+        }
+
+        .pad-0 {
+            padding: 0px;
         }
     </style>
 </head>
@@ -154,63 +184,254 @@
 
 <body>
 
-    <div class="container-fluid main-container">
+    <div class="container-fluid main-container pad-0">
         <div class="row">
-            <div class="ol-md-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 col-12">
-                <div class="head-section text-center">
+            <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 col-12 text-center">
+                <div class="head-section">
                     <h1 class=""> ANIKET SINGH </h1>
-                    <span class="color-blue fonSize20"> Senior Software Developer </span>
+                    <!-- <span class="color-blue fonSize20"> Senior Software Developer </span> -->
                     <p>
                         <span>
                             aniketsinghinform@gmail.com <span class="font-bold">|</span> (+91) 7011283041 <span
                                 class="font-bold">|</span> Ghaziabad UP
                         </span>
                     </p>
-                </div>
-                <div>
+
                     <p>
-                        <span> <a href="https://github.com/aniketsingh2000"> <img class="icon-c"
-                                    src="./images/git-icon.svg" /> @aniketsingh2000 </a> </span>
-                        <span class="float-right"> <a href="https://www.linkedin.com/in/aniketsingh2000/"> <img
-                                    class="icon-c" src="./images/linkdin-icon.svg" /> /aniketsingh2000 </a>
+                        <span>
+                            GitHub: <a class="color-blue" href="https://github.com/aniketsingh2000">
+                                github.com/aniketsingh2000</a>
+                            <span class="font-bold"> |</span>
+                            LinkedIn: <a class="color-blue" href="https://www.linkedin.com/in/aniketsingh2000/">
+                                linkedin.com/in/aniketsingh2000 </a>
+                        </span>
                     </p>
+
                 </div>
             </div>
         </div>
 
 
         <div class="row">
-            <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 col-12">
-                <h3> About Me</h3>
-                <p>
-                    With 5 years of experience in developing end-to-end software solutions, web applications, and
-                    hybrid mobile apps, Android applications, Front end development, Back end development.
+            <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 col-12 mb-2">
+                <h3> Summary</h3>
+                <p class="font-12 line-height-16">
+                    <!-- With over 5 years of experience in developing end-to-end software solutions, Web applications, and
+                    Hybrid mobile apps, Android applications, Front end development, Back end development.
                     I specialize in high-performance problem-solving, intuitive UI/UX design, and creating responsive
-                    interfaces that meet client requirements.
+                    interfaces that meet client requirements. -->
+                    <!-- Full-stack developer with 5+ years of experience in building scalable SaaS products, including
+                    Web applications, Hybrid mobile apps, and (Android/IOS) applications. Skilled in both frontend and
+                    backend development, and I focus on problem-solving, creating high-performance, user-friendly
+                    interfaces
+                    that meet client requirements. -->
+                    Senior Full-stack developer with 5+ years of experience building SaaS products, including web
+                    platforms and
+                    hybrid mobile apps (Android/iOS). Skilled in frontend and backend development with focus on
+                    creating clean, efficient, user friendly applications. Experienced in microservices, modular
+                    architectures, customizable dashboards, and AI-integrated chatbots. Specialized in high performance,
+                    problem solving, UI/UX design, creating responsive interfaces that meet multi client requirements.
+                </p>
+                <p class="font-12 line-height-16"> <b>Domains -</b> Healthcare, E-commerce | Facility & Society
+                    Management | Logistics
+                    &
+                    Supply Chain |
+                    Admin & Analytics Dashboards | Security & Guard Management | Disaster Relief | Volunteer Management
+                    | Travel
                 </p>
             </div>
         </div>
 
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 col-12">
-                <h3> Experience </h3>
 
-                <p class="font-bold"> # Algoscale Technologies / <span class="org-position color-blue">Senior Software
-                        Developer
-                    </span>&nbsp; <span class="spend-time float-right">( Feb 2022 - Present ~ NOIDA )
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 col-12 mb-2">
+                <h3> Skills </h3>
+
+                <p> <span class="font-bold color-blue"> Frontend - </span>
+                    <span class="skill">
+                        <!-- style="    display: inline-block;
+                    margin-left: 75px;
+                    margin-top: -30px;" -->
+                        <span> JavaScript (ES6+),</span>
+                        <span> TypeScript,</span>
+                        <span> React.js,</span>
+                        <span> React Native,</span>
+                        <span> Redux,</span>
+                        <span> Angular,</span>
+                        <span> Ionic, </span>
+                        <span> HTML5,</span>
+                        <span> CSS3,</span>
+                        <span> SCSS,</span>
+                        <span> jQuery</span>
+                        <!-- <span> Responsive Design</span> -->
                     </span>
                 </p>
-                <ul class="extra-ul">
 
-                    <li>Built dynamic web app using Angular, Node.js, Express.js, MongoDB, and SQL. </li>
+                <p> <span class="font-bold color-blue"> Backend - </span>
+                    <span class="skill">
+                        <span> Node.js,</span>
+                        <span> Express.js,</span>
+                        <span> MongoDB,</span>
+                        <span> SQL,</span>
+                        <span> PostgreSQL,</span>
+                        <span> Amazon Redshift</span>
+                        <!-- <span> Kafka</span> -->
+                    </span>
+                </p>
+
+                <p> <span class="font-bold color-blue"> State & Utilities - </span>
+                    <span class="skill">
+                        <span> Redux,</span>
+                        <span> NgRx,</span>
+                        <span> RxJS,</span>
+                        <span> REST APIs,</span>
+                        <span> Redis,</span>
+                        <span> Webpack,</span>
+                        <span> NPM,</span>
+                        <span> Yarn, </span>
+                        <span> Cordova</span>
+                    </span>
+                </p>
+
+                <p> <span class="font-bold color-blue"> Tools - </span>
+                    <span class="skill">
+                        <span> Git,</span>
+                        <span> Postman,</span>
+                        <span> Jira,</span>
+                        <span> Confluence,</span>
+                        <span> Linux, </span>
+                        <span>Docker,</span>
+                        <span>AWS (EC2, S3, IAM, Redshift)</span>
+                    </span>
+                </p>
+
+
+
+                <p> <span class="font-bold color-blue"> Other - </span>
+                    <span class="skill">
+                        <span>MVC,</span>
+                        <span>Agile Methodologies,</span>
+                        <span>CI/CD,</span>
+                        <span>Unit Testing,</span>
+                        <span>Accessibility,</span>
+                        <span>User Interface</span>
+                    </span>
+                </p>
+
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 col-12 mb-2">
+                <h3> Experience </h3>
+
+
+                <p class="company-name font-bold">SupplyCopia Software Services | Noida &nbsp; <span
+                        class="spend-time float-right">
+                        May 2025 -
+                        Present </span> </p>
+                <p class="font-bold font-style color-blue"> Senior Software Developer </p>
+                <ul class="extra-ul">
+                    <!-- <li> Collaborating with cross-functional teams to design and deliver scalable, high-quality software
+                        solutions while ensuring timely integration and deployment.</li>
+                    <li> eveloped modular and reusable components using Angular, React.js, TypeScript, Node.js, and
+                        Express.js in a microservices architecture, leading to a 40% improvement in code quality and a
+                        60% reduction in release cycle time.</li>
+                    <li>Enhanced large-scale analytics dashboards by optimizing MongoDB and Amazon Redshift queries,
+                        reducing report generation and data upload time by 50%. </li> -->
+
+                    <li>Lead frontend module development and collaborated with cross-functional teams to deliver
+                        scalable
+                        SaaS products.</li>
+
+                    <!-- <li>Collaborated with product managers and cross functional team to define requirements and deliver key platform features ahead of deadlines.</li> -->
+                    <li>Collaborated with product managers and cross-functional teams on requirements and delivered key
+                        features ahead of schedule.</li>
+                    <!-- 
+                    <li>Designed frontend modules and microservices with a dynamic multi-client architecture for
+                        scalability and customizable layouts.</li> -->
+
+                    <li>Architected microservices redesign and migrated databases from Redshift to PostgreSQL, improving
+                        query efficiency by 50%.</li>
+
+                    <li>Built reusable components with Angular and React.js, improving code quality by 40% and reducing
+                        release cycles by 60%.</li>
+
+                    <li>Optimized large-scale analytics dashboard by tuning MongoDB and SQL queries, reducing report
+                        generation and upload times.</li>
+
+                    <!-- <li> Designed and implemented microservices and a dynamic multi-client architecture, enabling
+                        independent scalability and customizable layouts across clients. </li>
+
+                    <li> Migrated modules databases from Redshift to PostgreSQL, improving query performance and
+                        system efficiency by 50%. </li>
+
+                    <li> Built modular, reusable components using Angular, React.js, Node.js, and TypeScript, improving
+                        code quality by 40% and reducing release cycles by 60%. </li>
+
+                    <li> Optimized large-scale analytics dashboards by tuning MongoDB and SQL queries, cutting report
+                        generation and data upload times by 50%. </li> -->
+                </ul>
+
+                <!-- <p class="company-name font-bold"> Turban Tech (Freelance) | Australia <span
+                        class="spend-time float-right">
+                        Feb 2023 -
+                        Feb 2025 </span> </p>
+                <p class="font-bold font-style color-blue">Software Developer </p>
+                <ul class="extra-ul">
+                    <li> Contributed to DisasterReliefAus.org by enhancing both frontend (React.js) systems, improving
+                        performance, accessibility (WCAG compliance), and
+                        mobile responsiveness—supporting thousands of volunteers nationwide. Integrated and customized
+                        Microsoft Dynamics 365 for seamless CRM and operations workflows.</li>
+
+                    <li>Converted Figma rebranding designs into UI components, integrated APIs with Dynamics 365
+                        and AWS services, and optimized content delivery—accelerating release cycles and aligning the
+                        platform with critical disaster response operations.</li>
+                </ul> -->
+
+                <p class="company-name font-bold">Algoscale Technologies | Noida &nbsp; <span
+                        class="spend-time float-right">
+                        Feb 2022 -
+                        Apr 2025 </span> </p>
+                <p class="font-bold font-style color-blue"> Software Developer </p>
+                <ul class="extra-ul">
+                    <li>Lead development of an AI-powered chatbot enabling users to perform actions and visualize data,
+                        reduce manual effort by 65%.</li>
+                    <li>Re-developed the entire application with a modern UI/UX, boosting user engagement and improving
+                        overall usability. </li>
+                    <li>Built customizable dashboards enabling users to personalize layouts and visualize multi-module
+                        data for daily operations.</li>
+                    <!-- <li>Implemented Micro-Frontend architecture with Angular and React.js, and developed reusable,
+                        scalable UI components using HTML5, CSS3, SCSS, Bootstrap, and MaterialUI.</li> -->
+                    <li>Collaborated with cross-functional teams to gather requirements, planning, project
+                        scopes, and deliver software on time.</li>
+
+                    <!-- <li>Delivered scalable full-stack solutions using Angular, React.js, Node.js, TypeScript, and
+                        Express.js within a microservices-based system.</li>
+
+                    <li>Reduced report generation and data upload time by 50% by optimizing DBT pipeline and Redshift
+                        queries
+                        for analytics dashboards.</li> -->
+
+
+
+                    <!-- Lead development for client-facing web and mobile application using Angular, React and Node.js, building modular UI
+components and integrating scalable RESTful services to support business dashboards and analytics.
+Improved product maintainability and development speed by creating reusable code patterns and collaborating closely with
+cross-functional teams across sprints, releases, and feedback loops. -->
+                    <!-- <li>Integrated Apache Kafka for asynchronous communication between microservices, enabling real-time data streaming and improving system reliability and scalability. </li> -->
+                    <!-- <li>Built dynamic web app using Angular, Node.js, Express.js, MongoDB, and SQL. </li>
                     <li>Architected microservices and implemented RESTful APIs using Node.js and Express.js</li>
                     <li>Develop Reusable, scalable, qualitative components and binding UI Elements to Javascript Object
                         Model.</li>
                     <li>Developed dynamic SQL queries and MongoDB aggregations for complex operations.</li>
-                    <li>Implemented CI/CD pipelines to maintain code quality and streamline deployment processes.</li>
+                    <li>
+                        
+                    </li>
                     <li>Develop new user facing features using HTML5, CSS3, SCSS, Bootstrap and MaterialUI.</li>
                     <li>Collaborated with cross-functional teams to gather requirements, planning, define project
-                        scopes, and deliver high-quality software on time.</li>
+                        scopes, and deliver high-quality software on time.</li> -->
 
 
                     <!-- <li> Implemented MicroFrontend architecture to enhancing system
@@ -229,11 +450,35 @@
                     
                     <li>Working with Git and SVN for effective version control and collaborative development. </li> -->
                 </ul>
-
+                <!-- 
                 <p class="font-bold"># Factech Solutions / <span class="org-position color-blue">Software
                         Developer</span>&nbsp; <span class="spend-time float-right">(
-                        Feb 2020 - Feb 2022 ~ NOIDA ) </span></p>
+                        Feb 2020 - Feb 2022 | NOIDA ) </span></p> -->
+                <p class="company-name font-bold">Factech Solutions | Noida &nbsp; <span class="spend-time float-right">
+                        Feb
+                        2020 - Feb 2022 </span> </p>
+                <p class="font-bold font-style color-blue">Software Engineer </p>
                 <ul class="extra-ul">
+
+                    <li>Optimized a mobile app with 10,000+ active users, reducing load time by 50%, enhancing UI/UX,
+                        and improving error handling.</li>
+
+                    <li>Delivered 25+ new features including (Survey, Visitor tracking, SOS) to improve
+                        user engagement and admin operations. </li>
+
+                    <li>Optimized speed, Built REST APIs with Node.js, Express.js, SQL, and MongoDB, enhancing system
+                        performance and
+                        scalability.</li>
+
+                    <!-- very last -->
+                    <!-- <li> Refactored and optimized both frontend and backend code, reducing app load time by 50%
+                        and decreasing user complaints through responsive design and improved error handling.
+                    </li>
+                    <li> Delivered 25+ new features, including survey alerts, visitor tracking, and in-app
+                        notifications, enhancing resident engagement and admin workflows. </li>
+                    <li>Optimized speed, data flow, and system scalability by developing and integrating REST APIs
+                        with Node.js, Express.js, SQL, and MongoDB in a microservices architecture to support web
+                        and mobile apps.</li> -->
 
                     <!-- <li>Develop hybrid Mobile app for using Ionic Framework.  </li>
                     <li>Developed reusable components for scalable and efficient system architecture. </li>
@@ -241,145 +486,172 @@
                     <li>Implemented internationalization (i18n) for a globally adaptable project. </li>
                     <li>Ensure Cross-Platform optimization of mobile phones, and Responsiveness of application. </li> -->
 
-                    <li>Develop hybrid mobile applications for using Ionic Framework adding 50+ new features in mobile
+                    <!-- <li> Built and maintained a hybrid mobile app using Ionic and Angular,
+                        enabling residents to manage billing, visitor logs,
+                        complaints, and society notices—digitally transforming operations across multiple housing
+                        societies.
+                    </li> -->
+
+
+                    <!-- <li>Develop hybrid mobile applications for using Ionic Framework adding 50+ new features in mobile
                         apps.</li>
                     <li>Translated wireframes and PSD designs into functional web apps using Angular, ReactJS, NodeJS
                     </li>
                     <li>Performed debugging, troubleshooting, resolving issues and improving performance.</li>
                     <li>Code implementation, redesign of modules, resulting in web pages loading over 50% faster and
                         significantly improving SEO rankings..</li>
-                    <li>Utilized MVC architecture for maintainable code and scalable code.</li>
+                    <li>Utilized MVC architecture for maintainable code and scalable code.</li> -->
 
 
+                </ul>
+
+                <p class="company-name font-bold">Device Disk | Delhi <span class="spend-time float-right"> Aug 2019
+                        -
+                        Dec 2019 </span> </p>
+                <p class="font-bold font-style color-blue">Full Stack Intern </p>
+                <ul class="extra-ul">
+                    <li> Developed responsive, cross-browser websites with optimized user interfaces and layouts,
+                        ensuring seamless performance, usability, and consistent user experience across multiple
+                        devices.</li>
                 </ul>
 
             </div>
         </div>
 
         <div class="row">
-            <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 col-12">
-                <h3>Live Projects</h3>
-                <div class="project-box">
+            <div class="col-md-6 col-sm-6 col-lg-6 col-xl-6 col-xxl-6 col-6 mb-2">
+                <h3>Education</h3>
 
-                    <p> <a href="https://www.supplycopia.com/"> <img src="images/supplycopia.png" /> <span>
-                                SupplyCopia - https://www.supplycopia.com/ </span> </a> </p>
-                    <p> <a href="https://factech.co.in/"> <img src="images/factech.png" /> <span> Factech -
-                                https://factech.co.in/ </span>
+                <ul>
+                    <p class="mt-1">
+                        <span class="de-name">
+                            Indira Gandhi National Open University | Delhi </span>
+                        <span class="clg-name">Master of Computer Application <span class="year-pass"> 2022 - 2024
+                            </span></span>
+                    </p>
+                    <p class="mt-1">
+                        <span class="de-name"> Indira Gandhi National Open University | Delhi</span>
+                        <span class="clg-name">Bachelor of Computer Application <span class="year-pass"> 2018 -
+                                2022</span></span>
+                    </p>
+                    <!-- <p class="mt-1">
+                        <span class="de-name"> #  Holy Angel's Public School (CBSE Board) </span>
+                        <span class="clg-name"> Intermidate passed with 1st Div <span class="year-pass"> (2018 |
+                            Ghaziabad)</span> </span>
+                    </p> -->
+                    <!-- 
+                    <p class="mt-1">
+                        <span class="de-name"> # High School passed with 1st Div. <span class="year-pass"> (2016 |
+                                Ghaziabad)</span></span>
+                        <span class="clg-name"> Holy Angel's Public School (CBSE Board)</span>
+                    </p> -->
+                </ul>
+
+
+            </div>
+
+            <div class="col-md-6 col-sm-6 col-lg-6 col-xl-6 col-xxl-6 col-6 mb-2">
+                <h3 class="">Certifications </h3>
+                <ul>
+                    <p class="mt-1">
+                        <span class="de-name"> Full Stack Development | Noida &nbsp;</span>
+                        <span class="clg-name">Tech Altum IT institute
+                            <span class="year-pass"> 2018 - 2019</span>
+                        </span>
+                        <!-- <span class="certicate-place"> - Tech Altum IT institute <span class="year-pass"> 2019 </span> </span> -->
+                    </p>
+                    <p class="mt-1">
+                        <span class="de-name"> Backend (Nodejs,Expressjs,Mongodb,SQL) </span>
+                        <span class="clg-name">Udemy
+                            <!-- <span class="year-pass"> 2021</span> -->
+                        </span>
+                        <!-- <span class="certicate-place"> - Udemy <span class="year-pass"> 2021 </span> </span> -->
+                    </p>
+                    <p class="mt-1">
+                        <span class="de-name"> React Native (Redux, Context-API, Android, Ios) </span>
+                        <span class="clg-name">Udemy
+                            <!-- <span class="year-pass"> 2025</span> -->
+                        </span>
+
+                    </p>
+
+                </ul>
+            </div>
+
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 col-12">
+                <h3>Projects</h3>
+                <div class="project-box">
+                    <p> <a class="color-blue" href="https://www.supplycopia.com/"> <img src="images/supplycopia.png" />
+                            <span>
+                                <b>SupplyCopia – Healthcare Supply Chain Platform </b> </span> </a> </p>
+                    <ul class="extra-ul">
+                        <li> Developed core modules including contract management, pref cards, and supplier-hospital
+                            workflows using Angular, React.js, Node.js, Express.js, MongoDB, and Amazon Redshift (SQL).
+                        </li>
+                        <li> Built interactive dashboards and real-time analytics using Chart APIs, optimizing inventory
+                            and improving hospital decision-making while reducing manual errors.</li>
+                    </ul>
+
+                    <p> <a class="color-blue" href="https://thetarzanway.com/"> <img
+                                src="images/thetarzanway_logo.jpeg" />
+                            <span>
+                                <b>The Tarzan Way – Travel Booking Platform </b>
+                            </span> </a> </p>
+                    <ul class="extra-ul">
+                        <li> Developed a dynamic, conversational chatbot interface with Next.js, React.js, TypeScript,
+                            WebSockets, enabling users to generate personalized travel itineraries in real time.</li>
+                        <li> Engineered modular, scalable UI components with optimized state management and integrated
+                            APIs, improving performance and long-term maintainability.</li>
+                    </ul>
+
+                    <p> <a class="color-blue" href="https://disasterreliefaus.org/"> <img
+                                src="images/disaster-relief-australia_logo.png" />
+                            <span>
+                                <b>Disaster Relief Australia – Humanitarian Tech </b>
+                            </span> </a> <span>&nbsp; | Turban Tech, Australia, Freelance</span> </p>
+                    <ul class="extra-ul">
+                        <li> Rebranded and re-engineered core modules of the national disaster response platform using
+                            React.js and Node.js, delivering accessible, responsive, and scalable interfaces for
+                            managing thousands of volunteers and operational workflows across
+                            Australia. </li>
+                        <li>Integrated Microsoft Dynamics 365 with custom APIs and redesigned the entire UI based on
+                            Figma, improving usability across roles and significantly reducing manual coordination
+                            overhead.</li>
+                    </ul>
+
+                    <p> <a class="color-blue" href="https://factech.co.in/"> <img src="images/factech.png" /> <span>
+                                <b>Factech - Automate
+                                    Facility Operations </b></span>
                         </a> </p>
-                    <p> <a href="https://play.google.com/store/search?q=isocietymanager&c=apps"> <img
-                                src="images/isocietymanager.png" /> <span> Isocietymanager -
-                                https://play.google.com/store/search?q=isocietymanager&c=apps</span> </a> </p>
-                    <p> <a href="https://tmen.in/"> <img src="images/tmen-img (1).png" /> <span> Tmen System
-                                - https://tmen.in/ </span> </a> </p>
+                    <ul class="extra-ul">
+                        <li>Developed a customizable admin dashboard using React.js, Node.js, SQL to manage reports,
+                            user roles, configurations.</li>
+                        <li>Enabled admin-level controls and real-time analytics to manage features, access, and data
+                            visibility efficiently.</li>
+                    </ul>
+
+                    <p> <a class="color-blue" href="https://play.google.com/store/search?q=isocietymanager&c=apps"> <img
+                                src="images/isocietymanager.png" /> <span><b> Isocietymanager - Society Management App
+                                </b></span> </a> </p>
+                    <ul class="extra-ul">
+                        <li> Delivered responsive and user-friendly modules for billing, complaints, emergency alerts,
+                            and visitor tracking with vehicle parking slot management,
+                            using Angular, Ionic, and Cordova to ensure smooth performance. </li>
+                        <!-- <li>Delivered responsive modules for billing, complaints, emergency alerts, visitor tracking with their vehical parking slot using Angular, Ionic, Cordova.</li> -->
+                        <li>Designed and implemented UI component to streamline daily operations and enhance resident
+                            engagement.</li>
+                    </ul>
                 </div>
             </div>
         </div>
 
 
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 col-12">
-                <h3> Skills </h3>
-
-                <p> <span class="font-bold color-blue"> Technical Skills :- &nbsp;&nbsp; </span>
-                    <span class="skill">
-                        <span> Javascript,</span>
-                        <span> Angular,</span>
-                        <span> React.js,</span>
-                        <span> Redux,</span>
-                        <span> Ionic,</span>
-                        <span> Typescript, </span>
-                        <span> Node.js,</span>
-                        <span> Express.js,</span>
-                        <span> MongoDB,</span>
-                        <span> SQL,</span>
-                        <span> Amazone Redshift,</span>
-                        <span> HTML5,</span>
-                        <span> CSS3-Responsive,</span>
-                        <span> SCSS,</span>
-                        <span> Angular Material, </span>
-                        <span> MaterialUI,</span>
-                        <span> Jquery,</span>
-                        <span> Bootstrap</span>
-                    </span>
-                </p>
-
-                <p class="mt-50 mt-3"> <span class="font-bold color-blue"> Others :- &nbsp;&nbsp; </span>
-                    <span class="skill">
-                        <span>MVC,</span>
-                        <span>DevOps,</span>
-                        <span>Unit Testing,</span>
-                        <span>CI/CD,</span>
-                        <span>Agile methodologies,</span>
-                        <span>Responsive web development,</span>
-                        <span>Accessibility,</span>
-                        <span>Problem solving,</span>
-                        <span>Ngrx, </span>
-                        <span>Rxjs, </span>
-                        <span>ES6, </span>
-                        <span>JSON, </span>
-                        <span>Web Services, </span>
-                        <span>Webpack, </span>
-                        <span>NPM, </span>
-                        <span>Yarn, </span>
-                        <span>Git, </span>
-                        <span>SVN, </span>
-                        <span>Cordova,</span>
-                        <span>Ajax, </span>
-                        <span>Linux</span>
-                    </span>
-                </p>
-
-                <p class="mt-50 mt-3"> <span class="font-bold color-blue"> Advance Tools:- &nbsp;&nbsp; </span>
-                    <span>
-                        <span>Jira Software (Development issue tracking) ,</span>
-                        <span>Confluence (Software requirements specification) ,</span>
-                        <span>Postman Tool (Restful mock server testing)</span>
-                    </span>
-                </p>
-
-            </div>
-
-        </div>
 
 
-        <div class="row">
-            <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 col-12">
-                <h3>Academic Qualification</h3>
-
-                <ul>
-                    <p class="mt-1"> 
-                        <span class="de-name"> # Master of Computer Application (MCA)   <span class="year-pass"> (2022 - 2024 ~ Delhi)</span></span>
-                       <span class="clg-name"> Indira Gandhi National Open University (IGNOU)</span>  
-                    </p>
-
-                    <p class="mt-1"> 
-                        <span class="de-name"> # Bachler of Computer Application (BCA)  <span class="year-pass"> (2018 - 2021 ~ Delhi)</span> </span>
-                       <span class="clg-name"> Indira Gandhi National Open University (IGNOU)</span>  
-                    </p>
-                    <p class="mt-1"> 
-                        <span class="de-name"> # Intermidate passed with 1st Div.  <span class="year-pass"> (2018 ~ Ghaziabad)</span></span>
-                       <span class="clg-name"> Holy Angel's Public School (CBSE Board)</span>  
-                    </p>
-
-                    <p class="mt-1"> 
-                        <span class="de-name"> # High School passed with 1st Div. <span class="year-pass"> (2016 ~ Ghaziabad)</span></span>
-                       <span class="clg-name"> Holy Angel's Public School (CBSE Board)</span>  
-                    </p>
-                </ul>
-
-                <h3 class="mt-15">Technical Qualification </h3>
-                <ul>
-
-                    <p class="mt-1"> 
-                        <span class="de-name"> # Full Stack Development Course <span class="year-pass"> (2019 ~ Noida)</span></span>
-                       <span class="clg-name"> Tech Altum IT institute </span>  
-                    </p>
-                </ul>
-            </div>
-
-        </div>
-
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 col-12">
                 <h3>Personal Details</h3>
                 <ul>
@@ -389,9 +661,9 @@
                     <p> <span class="font-bold">#. </span> Language Known : English & Hindi</p>
                 </ul>
             </div>
-        </div>
+        </div> -->
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 col-12">
                 <h3> Hobbies </h3>
                 <ul>
@@ -401,13 +673,13 @@
                     </p>
                 </ul>
             </div>
-        </div>
+        </div> -->
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-md-12 col-sm-12 col-lg-12 col-xl-12 col-xxl-12 col-12">
                 <h2> <span class="float-right"> ANIKET SINGH </span></h2>
             </div>
-        </div>
+        </div> -->
     </div>
 </body>
 

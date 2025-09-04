@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payslip - Apr 2025</title>
+    <link href="bootdtrap.min.css" rel="stylesheet">
+    <script src="bootstrap.minjs"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff;
+            /* padding: 40px; */
+            zoom: 95%;
+        }
+
+        h1,
+        h3,
+        p {
+            margin-bottom: 0px;
+        }
+
+        /* .container {
+      background-color: #fff;
+      padding: 30px;
+      border: 1px solid #ccc;
+      max-width: 800px;
+      margin: auto;
+    } */
+        /* .header, .footer {
+      margin-bottom: 20px;
+    } */
+        .section {
+            margin-bottom: 20px;
+        }
+
+        /* .section h3 {
+            border-bottom: 1px solid #ccc;
+            padding-bottom: 5px;
+        } */
+
+        .info-grid {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .info-grid div {
+            width: 25%;
+            /* margin-bottom: 10px; */
+            white-space: nowrap;
+        }
+
+        .single-info {
+            border-bottom: 1px solid #d5d5d5;
+            padding: 10px 0px;
+        }
+
+        .info-label {
+            /* font-weight: bold; */
+            font-size: 12px;
+            color: #818181;
+        }
+
+        .info-value {
+            font-size: 14px;
+        }
+
+        .section-first .single-info:nth-last-child(-n + 4) {
+            border-bottom-color: #000;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+
+        th,
+        td {
+            border: 1px solid #888;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .totals {
+            font-weight: bold;
+        }
+
+        .note {
+            font-size: 0.9em;
+            color: #666;
+            margin-top: 20px;
+        }
+
+        .payslip {
+            font-size: 30px;
+        }
+
+        .end-with-flex {
+            display: flex;
+            justify-content: end;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+        }
+
+        .logo-fixed {
+            width: 150px;
+        }
+
+        .logo-fixed img {
+            width: 100%;
+        }
+
+        .font-16 {
+            font-size: 14px;
+        }
+
+        .font-14 {
+            font-size: 12px;
+        }
+
+        .font-10{
+              font-size: 12px;
+        }
+
+        .e-name {
+            font-size: 16px;
+            font-weight: bold;
+            padding-bottom: 8px;
+            border-bottom: 1px solid;
+        }
+
+        .d-name {
+            font-size: 16px;
+            font-weight: bold;
+            padding-bottom:8px;
+        }
+
+        .s-name {
+            font-size: 14px;
+            padding-bottom: 8px;
+            border-bottom: 1px solid;
+        }
+
+        .div-info {
+            margin-bottom: 2px;
+        }
+
+        .div-value {
+            float: right;
+        }
+
+        .bdr-right {
+            border-right: 1px solid #d5d5d5;
+        }
+
+        .display-final-amount{
+            background: #f6f6f6;
+            padding: 20px 0px 20px 10px;
+        }
+
+        .display-final-amount .row:first-child{
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <div class="header">
+
+            <div class="row">
+                <div class="col-md-7 col-sm-7 col-lg-7 col-xl-7 col-xxl-7 col-7">
+                    <h1 class="payslip mb-4"><b>PAYSLIP</b> <span> MAR 2025 </span> </h1>
+                    <div>
+                        <p class="font-16 mb-2">ALGOSCALE TECHNOLOGIES PRIVATE LIMITED</p>
+                        <p class="font-14">D-76, SEC 63, NOIDA-201301</p>
+                        <p class="font-14">NOIDA UTTAR PRADESH 201301</p>
+                    </div>
+                </div>
+                <div class="col-md-5 col-sm-5 col-lg-5 col-xl-5 col-xxl-5 col-5">
+                    <div class="end-with-flex">
+                        <div class="logo-fixed">
+                            <img src="./images/ALGOSCALE-BLACK-LOGO.png" />
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section mt-5">
+            <p class="e-name">ANIKET SINGH</p>
+            <div class="info-grid section-first">
+                <div class="single-info">
+                    <div class="info-label">Employee Number</div>
+                    <div class="info-value"> AT214</div>
+                </div>
+                <div class="single-info">
+                    <div class="info-label">Date Joined</div>
+                    <div class="info-value"> 09 Feb 2022</div>
+                </div>
+                <div class="single-info">
+                    <div class="info-label">Department</div>
+                    <div class="info-value"> Product Engineering</div>
+                </div>
+                <div class="single-info">
+                    <div class="info-label">Sub Department</div>
+                    <div class="info-value"> N/A</div>
+                </div>
+                <div class="single-info">
+                    <div class="info-label">Designation</div>
+                    <div class="info-value"> Senior Software Developer</div>
+                </div>
+                <div class="single-info">
+                    <div class="info-label">Payment Mode</div>
+                    <div class="info-value"> Bank Transfer</div>
+                </div>
+                <div class="single-info">
+                    <div class="info-label">Bank</div>
+                    <div class="info-value"> Bank of Baroda</div>
+                </div>
+                <div class="single-info">
+                    <div class="info-label">Bank IFSC</div>
+                    <div class="info-value"> BARB0BLYGHA</div>
+                </div>
+                <div class="single-info">
+                    <div class="info-label">Bank Account</div>
+                    <div class="info-value"> 27140100015069</div>
+                </div>
+                <div class="single-info">
+                    <div class="info-label">UAN</div>
+                    <div class="info-value"> 101570615634</div>
+                </div>
+                <div class="single-info">
+                    <div class="info-label">PF Number</div>
+                    <div class="info-value"> MRNOI20044990000010074</div>
+                </div>
+                <div class="single-info">
+                    <div class="info-label">PAN Number</div>
+                    <div class="info-value"> LRZPS6146N</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section mt-5">
+            <p class="s-name">SALARY DETAILS</p>
+            <div class="info-grid">
+                <div class="single-info">
+                    <div class="info-label">Actual Payable Days</div>
+                    <div class="info-value">31.0</div>
+                </div>
+                <div class="single-info">
+                    <div class="info-label">Total Working Days</div>
+                    <div class="info-value">31.0</div>
+                </div>
+                <div class="single-info">
+                    <div class="info-label">Loss Of Pay Days</div>
+                    <div class="info-value">0.0</div>
+                </div>
+                <div class="single-info">
+                    <div class="info-label">Days Payable</div>
+                    <div class="info-value">31.0</div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <div class="section">
+            <h3>Pay Summary</h3>
+            <div class="info-grid">
+                <div><span class="info-label">Total Working Days:</span> 30.0</div>
+                <div><span class="info-label">Actual Payable Days:</span> 30.0</div>
+                <div><span class="info-label">Loss Of Pay Days:</span> 0.0</div>
+                <div><span class="info-label">Days Payable:</span> 30</div>
+                <div><span class="info-label">Net Salary Payable (A - B):</span> ₹57,733.00</div>
+                <div><span class="info-label">Net Salary in Words:</span> Fifty Seven Thousand Seven Hundred and Thirty
+                    Three Rupees only</div>
+            </div>
+        </div> -->
+
+        <div class="section">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-lg-6 col-xl-6 col-xxl-6 col-6 bdr-right">
+                    <p class="d-name">EARNINGS</p>
+                    <div class="div-info">
+                        <span class="div-label">Basic</span>
+                        <span class="div-value">28,946.40</span>
+                    </div>
+                    <div class="div-info">
+                        <span class="div-label">HRA</span>
+                        <span class="div-value">15,473.20</span>
+                    </div>
+                    <div class="div-info">
+                        <span class="div-label">Special Allowance</span>
+                        <span class="div-value">32,946.40</span>
+                    </div>
+                    <div class="div-info">
+                        <span class="div-label"><b>Total Earnings (A)</b></span>
+                        <span class="div-value">77,366.00</span>
+                    </div>
+                </div>
+                <div class="col-md-6 col-sm-6 col-lg-6 col-xl-6 col-xxl-6 col-6">
+                    <p class="d-name">CONTRIBUTIONS</p>
+                    <div class="div-info">
+                        <span class="div-label">PF Employee</span>
+                        <span class="div-value">1,800.00</span>
+                    </div>
+                    <div class="div-info">
+                        <span class="div-label">Employee Gratuity contribution</span>
+                        <span class="div-value">1,900.00</span>
+                    </div>
+                    <div class="div-info">
+                        <span class="div-label"><b>Total Contributions (B)</b></span>
+                        <span class="div-value">3,700.00</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="section mt-2 mb-2">
+            <div class="display-final-amount">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-lg-4 col-xl-4 col-xxl-4 col-4">Net Salary Payable ( A - B )</div>
+                    <div class="col-md-8 col-sm-8 col-lg-8 col-xl-8 col-xxl-8 col-8">73,666.00</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 col-lg-4 col-xl-4 col-xxl-4 col-4">Net Salary in words</div>
+                    <div class="col-md-8 col-sm-8 col-lg-8 col-xl-8 col-xxl-8 col-8"><b>Seventy Three Thousand Six Hundred Sixty Six Rupees Only</b></div>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div >
+           <p style="font-size: 16px;"><b>**Note </b> : <i> &nbsp;&nbsp;All amounts displayed in this payslip are in <b>INR</b></i></p>
+        </div>
+
+
+        <div class="mt-5">
+           <p class="font-10"><i>*This is computer generated statement, does not require signature.</i></p>
+        </div>
+        
+    </div>
+</body>
+
+</html>
